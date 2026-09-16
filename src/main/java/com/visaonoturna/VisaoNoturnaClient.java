@@ -31,7 +31,7 @@ public class VisaoNoturnaClient implements ClientModInitializer {
 		// Tecla padrão: N (pode ser trocada em Opções > Controles > Atalhos de teclado)
 		teclaAlternar = KeyMappingHelper.registerKeyMapping(new KeyMapping(
 				"key.visaonoturna.toggle",
-				InputConstants.Type.KEYSYM,
+				InputConstants.Type.values()[0],
 				InputConstants.KEY_N,
 				CATEGORIA));
 
